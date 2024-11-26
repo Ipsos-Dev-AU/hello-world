@@ -1,6 +1,6 @@
 print("first print w/o renv")
 library(shiny)
-library(jsonlite)
+# library(jsonlite)
 library(DBI)
 library(shinyjs)
 
@@ -87,7 +87,7 @@ server_conn_form <- function(.driver = driver,
     selectInput(
       inputId = "trusted_connection",
       label = "Trusted Connection",
-      choices = c("", "true", "false"),
+      choices = c("", "true", "false", "yes", "no"),
       selected = .trusted_connection 
     ),
     textInput(
