@@ -128,7 +128,7 @@ ui <- fluidPage(
              top: 0;
              width: 100%;
              margin-left: -15px;",
-    titlePanel("Hangman Game"),
+    titlePanel("Hangman Game-20250415 1234"),
     # logout button
     tags$a(
       href = "/.auth/logout?post_logout_redirect_uri=/",
