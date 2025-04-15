@@ -39,7 +39,7 @@ test_conn <- function(driver,
       .server = server,
       .database = database,
       .port = port,
-      .trusted_connection = trusted_connection,
+      # .trusted_connection = trusted_connection,
       .uid = uid,
       .pwd = pwd
     )
